@@ -1,7 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require('method-override');
-var jsonApi = require("./json-rest/api.js");
+var jsonApi = require("./api.js");
 var config = require('config');
 var debug = require("debug")("app");
 
