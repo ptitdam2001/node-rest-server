@@ -1,0 +1,15 @@
+{
+	"port": 8080,
+	"routes" : [
+		{
+			"url" : "/users",
+			"method": "GET",
+			"data": "user.findAll"
+		},
+		{
+			"url" : "/users/:id",
+			"method": "GET",
+			"data": "user.findById"
+		}
+	] 
+}
